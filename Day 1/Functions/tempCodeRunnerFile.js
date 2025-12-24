@@ -1,0 +1,1 @@
+console.log(myDetails("Joel",21,"KyU"));
