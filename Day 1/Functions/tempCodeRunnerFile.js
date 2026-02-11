@@ -1,1 +1,5 @@
-console.log(myDetails("Joel",21,"KyU"));
+const add = (x,y) =>{
+//     return x + y;
+// };
+
+// console.log(add(3,4));

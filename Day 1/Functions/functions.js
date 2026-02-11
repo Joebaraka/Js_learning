@@ -13,21 +13,28 @@ console.log(myDetails("Joel",21,"KyU"));
 function ageCalculator(myYearOfBirth){
     return 2025 - myYearOfBirth + " " + "years old";
 }
-
 console.log(ageCalculator(2002));
 
-Balance checker
+// Balance checker
+// function withdraw(balance, amountToWithdraw){
+//     if(amountToWithdraw > balance){
+//         return "insufficient balance, deposit";
+//     }
+
+//     return balance - amountToWithdraw;
+// }
+
 function withdraw(balance, amountToWithdraw){
-    if(amountToWithdraw > balance){
-        return "insufficient balance, deposit";
+    if (amountToWithdraw > balance){
+        return "Insuffient balance"
     }
 
     return balance - amountToWithdraw;
 }
 
-let result = withdraw(1000,2000);
+let output = withdraw(10000,2000);
 
-console.log(result);
+console.log(output);
 
 // Function to define the student grades
 function calaculateAverage(math,eng,kisw){
